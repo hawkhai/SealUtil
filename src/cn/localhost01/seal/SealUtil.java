@@ -165,7 +165,7 @@ public abstract class SealUtil {
             throw new Exception("FontText.length illegal!");
         }
 
-        int fixH = 18;
+        int fixH = 28; // 增加顶部边距，避免文字与上边框粘连
         int fixW = 2;
 
         //1.画布
